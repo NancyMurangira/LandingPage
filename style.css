@@ -1,0 +1,108 @@
+.SkillHeroLogo{
+    display: flex;
+
+}
+
+
+.SkillText{
+    color: darkblue;
+}
+.HeroText{
+    color: red;
+}
+.SuperHeroText{
+    color: red;
+
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Home{
+    color: rgb(242, 67, 67);
+}
+
+.HeroMan img{
+   margin-left: 620px;
+   /* margin-bottom: 10px; */
+}
+
+.TextUpgrade{
+    color: darkblue;
+}
+
+
+.Column2{
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.Buttons{
+    display: flex;
+    margin-top:40px ;
+   
+}
+
+
+.Ticks{
+    margin-top:60px ;
+   
+    display: grid;
+    flex-direction: row;
+}
+
+.MonthlySub{
+    display: flex;
+    color: grey;
+}
+.Guarantee{
+    display: flex;
+    color: grey;
+}
+.Text{
+    color: grey;
+}
+
+.Column3{
+    display: flex;
+    gap: 17%;
+    margin-left: 140px;
+    margin-top: 240px;
+}
+
+
+
+@media screen and (min-width:375px) and (max-width:435px){
+
+    .Navbar{
+        font-size: 25px;
+        display:grid;
+    }
+    
+    .Column1{
+       display: grid;
+    }
+
+    .Column3{
+        display: flex;
+        flex-wrap: wrap;
+        margin-to: 20px;
+
+    }
+    .Column1 img{
+        padding-left: 10px;
+        width: 200px;
+    }
+
+    .HeroMan img{
+        margin-left: 400px;
+        width: 200px
+    
+    }
+
+ }
