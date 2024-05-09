@@ -76,7 +76,6 @@
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .landing-page{
-    display: grid;
   }
     .heroman-picture img {
       margin-left: 260px;
@@ -93,7 +92,6 @@
 
 @media screen and (min-width: 1024px) {
   .landing-page{
-    display: grid;
   }
     .heroman-picture img {
       margin-left: 260px;
@@ -103,7 +101,7 @@
   
     }
     .navbar{
-      display: grid;
+    display: grid;
     }
  
 }
